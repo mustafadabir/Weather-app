@@ -53,7 +53,7 @@ if (loading) {
     <>
         <Form searchData={searchData}/>
         {!weather.main ? <h2 className='text-center text-white bg-danger py-4'>no data found</h2>:<Weather weather={weather}/> }
-        <p className="text-center py-5 text-white">Develop by <a href="#">Mustafa dabir</a></p>
+        <p className="text-center py-5 text-white">Develop by <a href="https://mustafadabir.netlify.app/" target='_blank' rel='noreferrer'>Mustafa dabir</a></p>
     </>
   )
 }
